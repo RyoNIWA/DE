@@ -7,3 +7,7 @@
 $ python ファイル名.py -1 input1ファイル -2 input2ファイル -e 0.001
 
 Evalueは変えられます。他に変えるべきパラメータがあれば教えてください。追加します。
+
+## ファイルの見方
+AminoAcidSequence1と2というフォルダが作られますので、確認してください。
+core_gene.faaはAminoAcidSequence1と2で同じものです。どちらかを利用してください。unique_genes.faaはinput1とinput2どちらかにしかない遺伝子になります。この3ファイルをBlastKoalaで見ると2種類の差がよくわかります。検討する遺伝子を減らすためにご利用いただければと思います
